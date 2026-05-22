@@ -1,8 +1,5 @@
+null_ver = None
 
-first_name = input()
-second_name = input()
-delimiter = input()
-
-print(f"{first_name}{second_name}{delimiter}")
-
+if null_ver is None:
+    print("null ver is None")
 
