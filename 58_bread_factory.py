@@ -39,7 +39,7 @@ for event in events:
         else:
             print(f"Closed! Cannot afford {ingredient}.")
             day_completed = False
-            break  # Фабриката затваря, спираме цикъла веднага!
+            break
 
 if day_completed:
     print("Day completed!")
