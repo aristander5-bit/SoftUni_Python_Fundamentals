@@ -1,8 +1,6 @@
-
+events = input().split('|')
 energy = 100
 coins = 100
-
-events = input().split('|')
 
 day_completed = True
 
