@@ -19,8 +19,6 @@ while command != "end":
         print("Invalid input! Adding additional elements to the board")
     else:
         if elements[first_index] == elements[second_index]:
-            # matched_element = elements.pop[first_index]
-            # elements.pop(second_index)
             matched_element = elements[first_index]
             while matched_element in elements:
                 elements.remove(matched_element)
