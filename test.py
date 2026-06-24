@@ -106,5 +106,162 @@
 #             population[element] += diff
 #
 # print(population)
+#
+# voltage = int(input(f"Voltage is: "))
+# current = float(input(f"Current is: "))
+# power_factor = float(input(f"Power factor is: "))
+# active_power = voltage * current * power_factor
+# print(f"Active power is: {active_power:.2f}")
+#
+# from math import sqrt
+# def calculator_power_impedance():
+#     u = float(input("Please enter your voltage: "))
+#     i = float(input("Please enter your amperage: "))
+#     cos_psi = float(input("Please enter your cos_psi: "))
+#     if not 0 <= cos_psi <= 1:
+#         print("Please enter number between 0 and 1.")
+#         return
+#     if u == 0 or i == 0:
+#         print("Please enter a positive number.")
+#         return
+#     sin_psi = sqrt(1 - cos_psi ** 2)
+#     s = u * i
+#     p = s * cos_psi
+#     q = s * sin_psi
+#     z = u / i
+#     r = z * cos_psi
+#     x = z * sin_psi
+#     print(f"{s:.2f}")
+#     print(f"{p:.2f}")
+#     print(f"{q:.2f}")
+#     print(f"{r:.2f}")
+#     print(f"{z:.2f}")
+#     print(f"{x:.2f}")
+# calculator_power_impedance()
+
+# class Car:
+#     def __init__(self, brand, colour):
+#         self.brand = brand
+#         self.colour = colour
+#     def drive(self):
+#         print(f"{self.colour} {self.brand} is moves!")
+# car1 = Car("BMW", "Black")
+# car2 = Car("Mercedes", "White")
+# car1.drive()
+# car2.drive()
+#
+# class Engine:
+#     def __init__(self, horsepower):
+#         self.horsepower = horsepower
+#         self.is_running = False
+#     def start(self):
+#         self.is_running = True
+#         print(f"Engine {self.horsepower} hp is running!")
+#     def stop(self):
+#         self.is_running = False
+#         print(f"Engine {self.horsepower} hp is stopped!")
+# class Car:
+#     def __init__(self, brand, engine):
+#         self.brand = brand
+#         self.engine = engine
+#     def drive(self):
+#         if  not self.engine.is_running:
+#             print("Cannot drive - engine is not starting!")
+#         else:
+#             print(f"{self.brand} drives straight!")
+#     def start_engine(self):
+#         self.engine.start()
+# class Person:
+#     def __init__(self, name, car):
+#         self.name = name
+#         self.car = car
+#     def go_to_work(self):
+#         print(f"{self.name} is go to work!")
+#         self.car.start_engine()
+#         self.car.drive()
+# engine = Engine(150)
+# car = Car("Mercedes", engine)
+# person = Person("Ivan", car)
+# person.go_to_work()
+#
+# class Car:
+#     def __init__(self, color):
+#         self.color = color
+#     def drive(self):
+#         print(f"The {self.color} car is driving.")
+# car1 = Car("black")
+# car2 = Car("blue")
+# car3 = Car("red")
+# car4 = Car("green")
+# car5 = Car("yellow")
+# car1.drive()
+# car2.drive()
+# car3.drive()
+# car4.drive()
+# car5.drive()
+#
+# class Car:
+#     def __init__(self, color, brand):
+#         self.color = color
+#         self.brand = brand
+#     def info(self):
+#         return f"This car is a {self.color} {self.brand}"
+# car1 = Car("red", "BMW")
+# car2 = Car("blue", "Mercedes")
+# print(car1.info())
+# print(car2.info())
+#
+# class Person:
+#     def __init__(self, name, age=0):
+#         self.name = name
+#         self.age = age
+#     def say_hello(self):
+#         return f"Hello, {self.name}!"
+# person1 = Person('Ivan', 25)
+# person2 = Person('Gosho', 28)
+# person3 = Person('Pesho', 30)
+# print(person1.say_hello())
+# print(person2.say_hello())
+# print(person3.say_hello())
+#
+# class Person:
+#     def __init__(self, name, age=0):
+#         self.name = name
+#         self.age = age
+#     def say_hello(self):
+#         return f"Hello, {self.name}!"
+# me = Person("Peter", 25)
+# print(me.age)
+# me.age += 1
+# print(me.age)
+#
+# class Car:
+#     wheels = 4
+#     def __init__(self, brand):
+#         self.brand = brand
+# car1 = Car("BMW")
+# car2 = Car("Ford")
+# car3 = Car("Honda")
+# print(car1.wheels)
+# print(car2.wheels)
+# print(car3.wheels)
+# Car.wheels = 6
+# print(car1.wheels)
+# print(car2.wheels)
+# print(car3.wheels)
+#
+# class Car:
+#     wheels = 4
+#     def __init__(self, brand):
+#         self.brand = brand
+#     def drive(self):
+#         print(f"{self.brand} is driving on {self.wheels} wheels")
+# car1 = Car("BMW")
+# car2 = Car("Audi")
+# car1.drive()
+# car2.drive()
+
+
+
 
 
