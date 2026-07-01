@@ -260,8 +260,50 @@
 # car2 = Car("Audi")
 # car1.drive()
 # car2.drive()
-
-
-
-
-
+#
+# keys = ['name', 'age', 'major']
+# values = ['Ivan', 25, 'Computer Science']
+# student = {}
+# for i in range (len(keys)):
+#     key = keys[i]
+#     value = values[i]
+#     student[key] = value
+# print(student)
+#
+# student = dict(name='Ivan', age=22, major='Computer science')
+# print(student)
+#
+# students = ['Ivan', 18, 25, 33], ['Pesho', 44, 14, 55, 66]
+# for s in students:
+#     if s[0] == 'Ivan':
+#         print(s[1])
+#
+# my_dict = {'name': 'Ivan', 'age': 30, 'occupation': 'Engineer'}
+# name = my_dict.get('name')
+# age = my_dict.get('age')
+# occupation = my_dict.get('occupation')
+# print(name)
+# print(age)
+# print(occupation)
+#
+# personal_info = {'name': 'Ivan', 'age': 25}
+# if 25 in personal_info.values():
+#     print(f"Name: {personal_info['name']}, Age: {personal_info['age']}")
+#
+# student_records = {
+#     'Ivan': {'Math': 5, 'Science': 4, 'English': 6},
+#     'Nikolay': {'Math': 3, 'Science': 6, 'English': 4},
+#     'Pesho': {'Math': 4, 'Science': 5, 'English': 3},
+# }
+# for student, grades in student_records.items():
+#     print(student)
+#     for subject, score in grades.items():
+#         print(f'\t{subject}: {score}')
+#
+# fruits = ['apple', 'orange', 'banana', 'kiwi']
+# fruit_lengths = {fruit: len(fruit) for fruit in fruits}
+# print(fruit_lengths)
+#
+# numbers = [1, 2, 3, 4, 5]
+# squares = {num: num**2 for num in numbers}
+# print(squares)
