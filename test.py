@@ -307,3 +307,29 @@
 # numbers = [1, 2, 3, 4, 5]
 # squares = {num: num**2 for num in numbers}
 # print(squares)
+#
+# price = 22.50
+# quantity = 5
+# total = 'The total cost is ${:.2f} for {} items.'.format(price * quantity, quantity)
+# print(total)
+#
+# price = 22.50
+# quantity = 5
+# total = f'The total cost is ${price*quantity} for {quantity} items.'
+# print(total)
+#
+# text = 'This is SoftUni Fundamentals'
+# course = text[-12:]
+# print(course)
+#
+# numbers = [1, 2, 3, 4, 5]
+# subset = numbers[1:4]
+# print(subset)
+#
+# text = 'Python Fundamentals'
+# splice = text[0:10:2]
+# print(splice)
+#
+# txt = "I like bananas"
+# new_text = txt.replace("bananas","apples")
+# print(new_text)
